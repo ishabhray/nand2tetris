@@ -233,11 +233,7 @@ int main(int argc, char** argv){
                 curr++;
             }
         }
+        fout.close();
     }
-    // Parser parser("add/Add.asm");
-    // while(parser.hasMoreCommands()) {
-    //     parser.advance();
-    //     cout << parser.currInstruction << endl;
-    // }
     return 0;
 }
